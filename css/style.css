@@ -9,6 +9,7 @@
     width: 100%;
     max-width: 1000px;
     margin:auto;
+    margin-top: 20px;
 }
 
 .clearfix::after{
@@ -18,10 +19,13 @@
 }
 
 .card {
-    margin: 0 10px;
     float:left;
     position: relative;
-    width: 31%;  
+    width: calc(33% - 4px);
+}
+
+.center.card {
+    margin: 0 10px;
 }
 
 .card img {
@@ -101,3 +105,9 @@
     position: relative;
 }
 
+.row {
+    margin-bottom:20px;
+}
+.eco {
+    left: 0;
+}

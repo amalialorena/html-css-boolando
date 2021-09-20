@@ -1,0 +1,34 @@
+/* general rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 10px auto;
+    
+    /* debug rules */
+    background-color: aqua;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    width: calc(100%/3);
+    float:left;
+    border: 1px solid black;
+  
+
+
+    /* debug rules */
+    background-color: red;
+    height: 500px;  
+}
+
+

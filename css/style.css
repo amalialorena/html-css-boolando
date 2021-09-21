@@ -22,6 +22,7 @@
     float:left;
     position: relative;
     width: calc(33% - 4px);
+    cursor:pointer;
 }
 
 .center.card {
